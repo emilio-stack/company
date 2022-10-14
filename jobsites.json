@@ -1,0 +1,26 @@
+{
+    "jobsite1" : {
+        "name": "the krusty krab",
+        "addressLn1": "831 bottom feeder ln",
+        "addressLn2": "",
+        "city": "bikini bottom", 
+        "state": "atlantic ocean", 
+        "zip": "00001"
+    },
+    "jobsite2" : {
+        "name": "the krusty krab 2",
+        "addressLn1": "833 bottom feeder ln",
+        "addressLn2": "",
+        "city": "bikini bottom", 
+        "state": "atlantic ocean", 
+        "zip": "00001"
+    },
+    "jobsite3" : {
+        "name": "the chum bucket",
+        "addressLn1": "830 bottom feeder ln",
+        "addressLn2": "",
+        "city": "bikini bottom", 
+        "state": "atlantic ocean", 
+        "zip": "00001"
+    }
+}

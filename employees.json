@@ -1,0 +1,47 @@
+{
+    "employee1": {
+        "firstname" : "spongebob",
+        "lastname" : "squarepants",
+        "birthday" : "05/01/99",
+        "trade" : "frycook",
+        "manager" : "mr.krabs",
+        "team" : "morning",
+        "wage" : "$5.00"     
+    },
+    "employee2": {
+        "firstname" : "squidward",
+        "lastname" : "tentacles",
+        "birthday" : "05/02/98",
+        "trade" : "cashier",
+        "manager" : "mr.krabs",
+        "team" : "morning",
+        "wage" : "$10.00"     
+    },
+    "employee3": {
+        "firstname" : "patrick",
+        "lastname" : "star",
+        "birthday" : "05/03/99",
+        "trade" : "starfish",
+        "manager" : "mr.krabs",
+        "team" : "night",
+        "wage" : "$3.00"     
+    },
+    "employee4": {
+        "firstname" : "sheldon",
+        "lastname" : "plankton",
+        "birthday" : "05/04/70",
+        "trade" : "manager",
+        "manager" : "n/a",
+        "team" : "full-time",
+        "wage" : "salary"     
+    },
+    "employee5": {
+        "firstname" : "eugene",
+        "lastname" : "krabs",
+        "birthday" : "05/05/70",
+        "trade" : "manager",
+        "manager" : "n/a",
+        "team" : "full-time",
+        "wage" : "salary"     
+    }
+}

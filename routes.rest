@@ -1,0 +1,91 @@
+// 
+// LOCAL HOST
+//
+
+// employees
+###
+GET http://localhost:8080/employees
+
+###
+GET http://localhost:8080/employees/6348b63e5bf09c6ebad5e186
+
+###
+POST http://localhost:8080/employees HTTP/1.1
+Content-Type: application/json
+{
+    "firstname" : "larry",
+    "lastname" : "the lobster",
+    "birthday" : "07/01/99",
+    "trade" : "life guard",
+    "manager" : "n/a",
+    "team" : "morning",
+    "wage" : "$15.00"     
+}
+
+// jobsites
+###
+GET http://localhost:8080/jobsites
+
+###
+GET http://localhost:8080/jobsites/6348b8435bf09c6ebad5e18d
+
+###
+POST http://localhost:8080/jobsites HTTP/1.1
+Content-Type: application/json
+{
+    "name": "the salty spitoon",
+    "addressLn1": "123 tough guy ln",
+    "addressLn2": "",
+    "city": "bikini bottom",
+    "state": "atlantic ocean",
+    "zip": "00002"
+}
+
+
+
+
+
+
+
+//
+// Production
+//
+
+// employees
+###
+GET http://company-9vjf.onrender.com/employees
+
+###
+GET http://company-9vjf.onrender.com/employees/6348b63e5bf09c6ebad5e186
+
+###
+POST http://company-9vjf.onrender.com/employees HTTP/1.1
+Content-Type: application/json
+{
+    "firstname" : "larry",
+    "lastname" : "the lobster",
+    "birthday" : "07/01/99",
+    "trade" : "life guard",
+    "manager" : "n/a",
+    "team" : "morning",
+    "wage" : "$15.00"     
+}
+
+// jobsites
+###
+GET http://company-9vjf.onrender.com/jobsites
+
+###
+GET http://company-9vjf.onrender.com/jobsites/6348b8435bf09c6ebad5e18d
+
+###
+POST http://company-9vjf.onrender.com/jobsites HTTP/1.1
+Content-Type: application/json
+{
+    "name": "the salty spitoon",
+    "addressLn1": "123 tough guy ln",
+    "addressLn2": "",
+    "city": "bikini bottom",
+    "state": "atlantic ocean",
+    "zip": "00002"
+}
