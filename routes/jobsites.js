@@ -12,4 +12,10 @@ router.get('/:id', jobsitesController.getSingle);
 // create
 router.post('/', jobsitesController.createJobsite);
 
+// update
+router.put('/:id', jobsitesController.updateJobsite);
+
+// delete
+router.delete('/:id', jobsitesController.deleteJobsite);
+
 module.exports = router;
