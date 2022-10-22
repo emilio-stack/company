@@ -22,6 +22,22 @@ Content-Type: application/json
     "wage" : "$15.00"     
 }
 
+###
+PUT http://localhost:8080/employees/ {:id} HTTP/1.1
+Content-Type: application/json
+{
+    "firstname" : "larry",
+    "lastname" : "the lobster",
+    "birthday" : "07/01/99",
+    "trade" : "life guard",
+    "manager" : "n/a",
+    "team" : "morning",
+    "wage" : "$15.00"     
+}
+
+### 
+DELETE http://localhost:8080/employees/{:id}
+
 // jobsites
 ###
 GET http://localhost:8080/jobsites
@@ -41,6 +57,20 @@ Content-Type: application/json
     "zip": "00002"
 }
 
+###
+PUT http://localhost:8080/jobsites/ {:id} HTTP/1.1
+Content-Type: application/json
+{
+    "name": "the salty spitoon",
+    "addressLn1": "123 tough guy ln",
+    "addressLn2": "",
+    "city": "bikini bottom",
+    "state": "atlantic ocean",
+    "zip": "00002"
+}
+
+### 
+DELETE http://localhost:8080/jobsites/{:id}
 
 
 
@@ -71,6 +101,23 @@ Content-Type: application/json
     "wage" : "$15.00"     
 }
 
+###
+PUT http://company-9vjf.onrender.com/employees/ {:id} HTTP/1.1
+Content-Type: application/json
+{
+    "firstname" : "larry",
+    "lastname" : "the lobster",
+    "birthday" : "07/01/99",
+    "trade" : "life guard",
+    "manager" : "n/a",
+    "team" : "morning",
+    "wage" : "$15.00"     
+}
+
+### 
+DELETE http://company-9vjf.onrender.com/employees/{:id}
+
+
 // jobsites
 ###
 GET http://company-9vjf.onrender.com/jobsites
@@ -89,3 +136,18 @@ Content-Type: application/json
     "state": "atlantic ocean",
     "zip": "00002"
 }
+
+###
+PUT http://company-9vjf.onrender.com/jobsites/ {:id} HTTP/1.1
+Content-Type: application/json
+{
+    "name": "the salty spitoon",
+    "addressLn1": "123 tough guy ln",
+    "addressLn2": "",
+    "city": "bikini bottom",
+    "state": "atlantic ocean",
+    "zip": "00002"
+}
+
+### 
+DELETE http://company-9vjf.onrender.com/jobsites/{:id}
