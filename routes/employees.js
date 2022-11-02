@@ -1,7 +1,10 @@
 const express = require('express');
 const router = express.Router();
+const loadUser = require('../middleware/loadUser');
 
 const employeesController = require('../controllers/employees');
+
+router.use([loadUser]);
 
 // read all 
 router.get('/', employeesController.getAll);
