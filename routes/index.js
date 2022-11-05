@@ -7,5 +7,6 @@ router.use('/employees', require('./employees'));
 router.use('/jobsites', require('./jobsites'));
 router.use('/api-docs', require('./docs'));
 router.use('/authorization', require('./authorization'));
+router.use('/secure',   require('./secure'));
 
 module.exports = router;

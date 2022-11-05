@@ -15,14 +15,9 @@ const exists = async (id) => {
 
 const getAll = async (req, res) => {
   /**
-   * #swagger.description = 'PROTECTED ROUTE!!! Get all jobsites'
+   * #swagger.description = 'Get all jobsites'
    */
   try {
-    if (!req.user) {
-      res.status(401).send("No user logged in");
-      return;
-    }
-
       const result = await mongodb.getDb().db('company').collection('jobsites').find();
       result.toArray().then((lists) => {
           res.header('Content-Type', 'application/json');

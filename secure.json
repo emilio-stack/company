@@ -1,0 +1,10 @@
+{
+    "secretRecipie" : {
+        "ingredient1": "wheat buns",
+        "ingredient2": "grass fed beef",
+        "ingredient3": "tomatos",
+        "ingredient4": "lettuce", 
+        "ingredient5": "sauce", 
+        "ingredient6": "cheese"
+    }
+}

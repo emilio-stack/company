@@ -14,14 +14,11 @@
   "paths": {
     "/employees/": {
       "get": {
-        "description": "PROTECTED ROUTE!!! Get all employees",
+        "description": "Get all employees",
         "parameters": [],
         "responses": {
           "200": {
             "description": "OK"
-          },
-          "401": {
-            "description": "Unauthorized"
           },
           "500": {
             "description": "Internal Server Error"
@@ -178,14 +175,11 @@
     },
     "/jobsites/": {
       "get": {
-        "description": "PROTECTED ROUTE!!! Get all jobsites",
+        "description": "Get all jobsites",
         "parameters": [],
         "responses": {
           "200": {
             "description": "OK"
-          },
-          "401": {
-            "description": "Unauthorized"
           },
           "500": {
             "description": "Internal Server Error"
@@ -354,6 +348,23 @@
         "responses": {
           "200": {
             "description": "OK"
+          }
+        }
+      }
+    },
+    "/secure/": {
+      "get": {
+        "description": "PROTECTED ROUTE!!! Get all secure docs",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "500": {
+            "description": "Internal Server Error"
           }
         }
       }
