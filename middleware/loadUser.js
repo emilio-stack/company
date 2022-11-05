@@ -1,7 +1,14 @@
 const loadUser = async (req, res, next) => {
-    const authZeroUser = await fetchAuthZeroUser(req.headers.authorization);
+    try {
+        const authZeroUser = await fetchAuthZeroUser(req.headers.authorization);
 
     console.log(authZeroUser);
+
+    req.user = authZeroUser;
+    } catch (error) {
+        // could not load user just continue with the request
+        next();
+    }
 
     next();
 };
